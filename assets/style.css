@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*colors*/
+:root {
+    --goldenrod: #DAA520;
+}
+
+body{
+    background-color: var(--goldenrod);
+}
+
+
+/*container*/
+.container{
+    background-color: #ddd;
+    padding: 10px;
+    width: 560px;
+    height: 30%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px
+
+}
+
+
+/*form-input*/
+.input-group>.form-control:first-child{
+    box-shadow: none;
+    border: 1px solid black;
+}
+
+
+/*buttons*/
+.btn-warning{
+    border: 1px solid black;
+    box-shadow: none;
+}
